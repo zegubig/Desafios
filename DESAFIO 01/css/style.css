@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+
+}
+html{
+    position: relative;
+    height: 100%;
+    min-height: 600px;
+}
+
+header, footer{
+   background-color: #212121;
+   color: white;
+   font-size: 18px;
+}
+main{
+    margin: 200px auto;
+    width: 50%;
+}
+
+.borda{
+    border-right: 1px dotted black;
+    padding: 20px;
+}
+#central{
+    display: flex;
+}
+#texto{
+    text-align: center;
+}
+#cabecario{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 600px;
+}
+#logo, nav{
+    margin: 5px 10px;
+    padding: 5px;
+}
+#logo{
+    margin-left: 80px;
+}
+nav{
+    margin-right: 80px;
+}
+a{
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: red;
+    border-radius: 20px;
+}
+#home{
+    background-color: #F9A825;
+    border-radius: 20px;
+}
+#entradaemail{
+    width: 200px;
+    padding: 3px;
+    margin: 5px 0;
+}
+#caixaemail{
+    padding: 15px;
+}
+footer{
+    height: 80px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+h2{
+    padding-top: 25px;
+}
